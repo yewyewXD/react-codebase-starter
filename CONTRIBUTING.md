@@ -9,9 +9,10 @@ Note that we have a code of conduct, please follow it in all your interactions w
 1. Fork the repository, clone the repository you forked.
 2. Create a branch with a descriptive name with `git checkout -b <your-branch-name>`. For example, if you want to setup a Gatsby starter pack, you could name it as `gatsby-starter`.
 3. Commit the changes with descriptive commit message and finally push it with `git push origin <your-branch-name>`.
-4. On the the forked / original Github repository page, a green "Create pull request" button will appear, just click it and add some details in the title and/or description.
-5. We will then review your branch and comment on the pull request.
-6. Your branch will then become a dedicated starter pack, which can be cloned by other developers using `git clone --single-branch --branch <the-branch-name> https://github.com/yewyewXD/react-codebase-starter.git`.
+4. Before making a pull request, please make sure to change the title `(React, Sass)` (starter type) and the `The Structure` section (detail of the structure) in the README file.
+5. On the the forked / original Github repository page, a green "Create pull request" button will appear, just click it and add some details in the title and/or description.
+6. We will then review your branch and comment on the pull request.
+7. Your branch will then become a dedicated starter pack, which can be cloned by other developers using `git clone --single-branch --branch <the-branch-name> https://github.com/yewyewXD/react-codebase-starter.git`.
 
 ## Become a moderator / maintainer
 
