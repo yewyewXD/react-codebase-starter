@@ -1,16 +1,17 @@
 import React, { useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { textCapitalize } from "../../utils/typography";
 
 const Header = () => {
   const { pathname } = useLocation();
   const routes = useMemo(
     () => [
       {
-        name: "Home",
+        name: "home",
         link: "/",
       },
       {
-        name: "Page One",
+        name: "page one",
         link: "/page1",
       },
     ],
@@ -27,7 +28,7 @@ const Header = () => {
           to={route.link}
           key={`route-${index}`}
         >
-          {route.name}
+          {textCapitalize(route.name)}
         </Link>
       ))}
     </header>
