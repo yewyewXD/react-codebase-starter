@@ -1,0 +1,10 @@
+%allCenter,
+%allCenterColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%allCenterColumn {
+  flex-direction: column;
+}

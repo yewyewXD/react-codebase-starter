@@ -1,4 +1,9 @@
 // Path: src\components\reusables\Header.jsx
 .Header {
+  @extend %allCenter;
   padding: 2rem 0;
+
+  .NavLink {
+    margin: 0 1rem;
+  }
 }
