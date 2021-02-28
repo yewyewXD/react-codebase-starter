@@ -1,2 +1,5 @@
-@import "./01-SectionOne";
-@import "./02-SectionTwo";
+// Path: src\mainPages\PageOne.jsx
+.PageOnePage {
+  @import "./01-SectionOne";
+  @import "./02-SectionTwo";
+}
