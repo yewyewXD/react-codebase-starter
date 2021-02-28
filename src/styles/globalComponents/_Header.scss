@@ -5,5 +5,9 @@
 
   .NavLink {
     margin: 0 1rem;
+
+    &--active {
+      color: red;
+    }
   }
 }

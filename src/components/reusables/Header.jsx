@@ -1,12 +1,13 @@
 import React, { useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const { pathname } = useLocation();
   const routes = useMemo(
     () => [
       {
         name: "Home",
-        link: "/home",
+        link: "/",
       },
       {
         name: "Page One",
@@ -19,7 +20,13 @@ const Header = () => {
   return (
     <header className="Header">
       {routes.map((route, index) => (
-        <Link className="NavLink" to={route.link} key={`route-${index}`}>
+        <Link
+          className={`NavLink ${
+            route.link === pathname ? "NavLink--active" : ""
+          }`}
+          to={route.link}
+          key={`route-${index}`}
+        >
           {route.name}
         </Link>
       ))}
