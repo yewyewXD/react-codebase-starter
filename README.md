@@ -1,4 +1,4 @@
-# React Codebase Starter (Main Starter Pack)
+# React Codebase Starter (React, Sass)
 
 ## Description
 
