@@ -1,7 +1,17 @@
 import React from "react";
+import Layout from "../components/Layout";
+import SectionOne from "../components/pages/PageOneComponents/SectionOne";
+import SectionTwo from "../components/pages/PageOneComponents/SectionTwo";
 
-const PageOne = () => {
-  return <div>this is page one</div>;
+const Home = () => {
+  return (
+    <Layout>
+      <main className="PageOnePage">
+        <SectionOne />
+        <SectionTwo />
+      </main>
+    </Layout>
+  );
 };
 
-export default PageOne;
+export default Home;
